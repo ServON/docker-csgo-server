@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 MAINTAINER Max Gonzih <gonzih at gmail dot com>
 
 ENV USER csgo
-ENV HOME /home/$USER
+ENV HOME /mnt/HC_Volume_3068793
 ENV SERVER $HOME/hlserver
 
 RUN apt-get -y update \
